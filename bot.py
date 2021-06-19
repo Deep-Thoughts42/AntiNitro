@@ -44,7 +44,7 @@ async def emoji(ctx):
             await ctx.send(f"This emoji doesn't exist {ctx.message.author.name}, you idiot.")
         await ctx.message.delete()
     else:
-        await ctx.send(file=discord.File(response), content="Sent by {}".format(ctx.message.author.name))
+        await ctx.send(file=discord.File(response), content="Sent by **{}**".format(ctx.message.author.name))
         await ctx.message.delete()
 
 
