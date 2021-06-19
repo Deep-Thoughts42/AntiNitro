@@ -31,7 +31,7 @@ optional arguments:
 
 For example, a potential usage could be:
 ```python
-python3 -n chikalenny -a chilen -d Chika doing the lenny face -f chikalenny.gif
+python3 -n chikalenny -a chilen -d "Chika doing the lenny face" -f chikalenny.gif
 ```
 *Note how you do not need to specify the directory and just the filename at the moment.
 
